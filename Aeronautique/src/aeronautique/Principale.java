@@ -16,6 +16,7 @@ public class Principale {
 		Vol unVol = new Vol();
 		System.out.println(unPilote);
 		
+		System.out.println("Fin du programe");
 	}
 
 }
