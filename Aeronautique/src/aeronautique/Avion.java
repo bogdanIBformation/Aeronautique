@@ -19,14 +19,27 @@ public class Avion {
 		this.capacite = capacite;
 		this.loc = loc;
 	}
+
+	//getters + setters
+	/**
+	 * Get the ground location of the plane
+	 * @return the city.
+	 */
+	public String getLoc() {
+		return loc;
+	}
+
+	/**
+	 * Set the ground position of the plane
+	 * @param loc the city (location)
+	 */
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+	
 	
 	@Override
 	public String toString() {
 		return "Avion " +numAv+ " [nomAv=" + nomAv + ", capacite=" + capacite + ", loc=" + loc + "]";
-	}
-	
-	
-	//getters + setters
-	
-	
+	}	
 }
