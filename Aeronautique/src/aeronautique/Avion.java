@@ -5,6 +5,7 @@ public class Avion {
 	private String nomAv;
 	private int capacite;
 	private String loc;
+	private int enPlus;
 	/**
 	 * Constructeur pour un avion ayant les caracteristiques suivantes:
 	 * @param numAv le numero de l'avion
@@ -18,6 +19,7 @@ public class Avion {
 		this.nomAv = nomAv;
 		this.capacite = capacite;
 		this.loc = loc;
+		this.enPlus = 15;
 	}
 
 	//getters + setters
