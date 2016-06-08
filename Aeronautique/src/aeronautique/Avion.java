@@ -20,7 +20,7 @@ public class Avion {
 		this.nomAv = nomAv;
 		this.capacite = capacite;
 		this.loc = loc;
-		this.enPlus = 34;
+		this.enPlus = 12_000;
 	}
 
 	//getters + setters
