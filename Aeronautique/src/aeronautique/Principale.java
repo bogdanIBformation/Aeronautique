@@ -13,8 +13,8 @@ public class Principale {
 		Pilote unPilote = new Pilote(compteurPilotes++, "Jean", "Nice", 20_000);
 		System.out.println(unPilote);
 		
-		Vol unVol = new Vol();
-		System.out.println(unPilote);
+		//Vol unVol = new Vol();
+		//System.out.println(unPilote);
 		
 		System.out.println("Fin du programe");
 	}
